@@ -171,10 +171,12 @@ body::after {
         #55d6ff
     );
 
+    background-clip: text;
     -webkit-background-clip: text;
+
+    color: transparent;
     -webkit-text-fill-color: transparent;
 }
-
 .description {
     max-width: 540px;
 
